@@ -23,21 +23,19 @@
 
 	<dependencies>
 	
-		<!-- Jakarta EE API (most of it)-->
+		<!-- Jakarta EE API (parts we need)-->
 		<dependency>
-			<groupId>jakarta.platform</groupId>    
-			<artifactId>jakarta.jakartaee-api</artifactId>
-			<version>${jakartaee.version}</version>  
-		</dependency> 
-
-		<!-- Jakarta CDI -->
-		<dependency>
-			<groupId>jakarta.enterprise</groupId>
-			<artifactId>jakarta.enterprise.cdi-api</artifactId>
-			<version>5.0.0-M1</version>
+			<groupId>jakarta.persistence</groupId>
+			<artifactId>jakarta.persistence-api</artifactId>
+			<version>3.2.0</version>
+			<scope>compile</scope>
 		</dependency>
-
-		<!-- JAXB deleted from Java SE 11 -->
+		<dependency>
+			<groupId>jakarta.validation</groupId>
+			<artifactId>jakarta.validation-api</artifactId>
+			<version>3.1.1</version>
+			<scope>compile</scope>
+		</dependency>
 		<dependency>
 			<groupId>jakarta.xml.bind</groupId>
 			<artifactId>jakarta.xml.bind-api</artifactId>
