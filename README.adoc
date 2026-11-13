@@ -1,0 +1,6 @@
+== Datamodel
+
+This is the library for the data classes, usable in most or all projects that need
+access to TicketManor data. Really, just `ticketmanor-quarkus`.
+
+Version 1 used the `javax.` namespace. Version 2 uses `jakarta` namespaces.
